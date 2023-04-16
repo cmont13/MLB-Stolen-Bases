@@ -1,5 +1,5 @@
 # Load packages####
-library(extrafont)
+install.packages(c('tidyverse', 'readxl', 'png', 'jpg', 'svDialogs', 'magick'))
 library(tidyverse)  # Loads the `tidyverse` collection
 library(readxl)     # Reads CSV and Excel files
 library(png)        # Reads and Writes PNG files
